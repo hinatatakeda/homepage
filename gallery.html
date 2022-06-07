@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>たけだの自己紹介</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="たけだの自己紹介">
+<!-- <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５"> -->
+<link rel="stylesheet" href="css/style.css">
+<script src="js/fixmenu_pagetop.js"></script>
+<script src="js/openclose.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+
+<!-- <h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="たけだの自己紹介"></a></h1> -->
+<h1>たけだの自己紹介</h1>
+<!--PC用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="index.html">本サイトについて</a></li>
+<li><a href="about.html">About me</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="link.html">Link</a></li>
+</ul>
+</nav>
+
+<!-- <ul class="icon"> -->
+<!-- <li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li> -->
+<!-- <li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li> -->
+<!-- <li><a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a></li> -->
+<!-- </ul> -->
+
+</header>
+
+<div id="contents">
+
+<section class="inner first">
+
+<h2>Gallery</h2>
+
+<figure id="item-image"> 
+<img src="images/gallary7.png" alt="大分地獄巡り" id="item_image1"> 
+<!-- <img src="images/gallary7.png" alt="大分地獄巡り" class="item_image2">  -->
+<p id="imgcaption"></p> 
+</figure>
+
+<div id="thumbnail-box">
+<img src="images/gallary5.png" alt="京都渡月橋にて" class="thumbnail">	
+<img src="images/gallary1.png" alt="コスモス" class="thumbnail">
+<img src="images/gallary2.png" alt="肉寿司！！！" class="thumbnail">
+<img src="images/gallary4.png" alt="タイで" class="thumbnail">
+<img src="images/gallary6.png" alt="平城京" class="thumbnail">
+<img src="images/gallary3.png" alt="世田谷区桜神宮" class="thumbnail">
+</div>
+
+<h3>趣味は写真です</h3>
+<p>趣味で撮ったお気に入りの写真を載せています。<br>
+風景画、食べ物の写真を撮るのが好きなのでぜひみてください。</p>
+
+</section>
+
+<footer>
+<small>Copyright&copy; <a href="index.html">たけだの自己紹介</a> All Rights Reserved.</small>
+<span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+</footer>
+
+</div>
+<!--/#contents-->
+
+</div>
+<!--/#container-->
+
+<!--オープニングアニメーション-->
+<aside id="mainimg">
+<img src="images/1.png" alt="" class="photo photo1">
+<img src="images/1.png" alt="" class="photo photo2">
+<img src="images/1.png" alt="" class="photo photo3">
+<img src="images/1.png" alt="" class="photo photo4">
+<img src="images/1.png" alt="" class="photo photo5">
+<img src="images/1.png" alt="" class="photo photo6">
+<img src="images/1.png" alt="" class="photo photo7">
+<img src="images/1.png" alt="" class="photo photo8">
+<img src="images/1.png" alt="" class="photo photo9">
+</aside>
+
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="link.html">Link</a></li>
+</ul>
+</nav>
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+
+<!--メニューの開閉処理条件設定　800px以下-->
+<script>
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+<!-- イメージチェンジ設定 -->
+<script src="js/imgchg_pack.js"></script>
+<script>
+imgchg_start('item_image1','item_image', 'thumbnail', 'imgcaption', 0,0);
+</script>
+
+</body>
+</html>
